@@ -15,7 +15,7 @@ class Item(BaseModel): #act as a serializer
 
 @app.get('/')
 def index():
-    return {'message': 'Hello WOrld'}
+    return {'message': 'Hello WOrld', 'info': 'Do you know I love you?'}
 
 
 @app.get('/greet/{name}')
